@@ -1,0 +1,1243 @@
+{
+  "stage": "C",
+  "fixture": false,
+  "question": "Does last year's first 0.1 in GHCND SNOW date beat the 1991-2020 median date at held-out Indiana GHCND cores?",
+  "source": "live",
+  "n_rows": 325,
+  "n_stations": 4,
+  "units": "days",
+  "snow_inch_min": 0.1,
+  "element": "SNOW",
+  "p_sfha_feature": false,
+  "hand_feature": false,
+  "nora_q": false,
+  "nwm_file": false,
+  "prcp_as_label": false,
+  "snwd_as_label": false,
+  "tmin_as_label": false,
+  "cocorahs_swap": false,
+  "page_in_scope": false,
+  "last_year_beats_median": false,
+  "last_year_loses_both": true,
+  "north_note": "",
+  "figures": [
+    "scatter.png",
+    "mae_bars.png"
+  ],
+  "used_optional": null,
+  "holes": [
+    {
+      "station_id": "USW00014848",
+      "incomplete": [
+        {
+          "target": "first_snow",
+          "year": 1893,
+          "complete_frac": 0.3315068493150685
+        },
+        {
+          "target": "first_snow",
+          "year": 1894,
+          "complete_frac": 0.5342465753424658
+        },
+        {
+          "target": "first_snow",
+          "year": 1895,
+          "complete_frac": 0.39344262295081966
+        },
+        {
+          "target": "first_snow",
+          "year": 1896,
+          "complete_frac": 0.4136986301369863
+        },
+        {
+          "target": "first_snow",
+          "year": 1897,
+          "complete_frac": 0.4136986301369863
+        },
+        {
+          "target": "first_snow",
+          "year": 1898,
+          "complete_frac": 0.6657534246575343
+        },
+        {
+          "target": "first_snow",
+          "year": 1899,
+          "complete_frac": 0.5013698630136987
+        },
+        {
+          "target": "first_snow",
+          "year": 1900,
+          "complete_frac": 0.4958904109589041
+        },
+        {
+          "target": "first_snow",
+          "year": 1901,
+          "complete_frac": 0.4438356164383562
+        },
+        {
+          "target": "first_snow",
+          "year": 1902,
+          "complete_frac": 0.3452054794520548
+        },
+        {
+          "target": "first_snow",
+          "year": 1903,
+          "complete_frac": 0.5819672131147541
+        },
+        {
+          "target": "first_snow",
+          "year": 1904,
+          "complete_frac": 0.4958904109589041
+        },
+        {
+          "target": "first_snow",
+          "year": 1905,
+          "complete_frac": 0.4136986301369863
+        },
+        {
+          "target": "first_snow",
+          "year": 1906,
+          "complete_frac": 0.6054794520547945
+        },
+        {
+          "target": "first_snow",
+          "year": 1907,
+          "complete_frac": 0.4180327868852459
+        },
+        {
+          "target": "first_snow",
+          "year": 1908,
+          "complete_frac": 0.5808219178082191
+        },
+        {
+          "target": "first_snow",
+          "year": 1909,
+          "complete_frac": 0.5808219178082191
+        },
+        {
+          "target": "first_snow",
+          "year": 1910,
+          "complete_frac": 0.589041095890411
+        },
+        {
+          "target": "first_snow",
+          "year": 1911,
+          "complete_frac": 0.46174863387978143
+        },
+        {
+          "target": "first_snow",
+          "year": 1912,
+          "complete_frac": 0.4136986301369863
+        },
+        {
+          "target": "first_snow",
+          "year": 1913,
+          "complete_frac": 0.5808219178082191
+        },
+        {
+          "target": "first_snow",
+          "year": 1914,
+          "complete_frac": 0.4986301369863014
+        },
+        {
+          "target": "first_snow",
+          "year": 1915,
+          "complete_frac": 0.4972677595628415
+        },
+        {
+          "target": "first_snow",
+          "year": 1916,
+          "complete_frac": 0.5917808219178082
+        },
+        {
+          "target": "first_snow",
+          "year": 1917,
+          "complete_frac": 0.5068493150684932
+        },
+        {
+          "target": "first_snow",
+          "year": 1918,
+          "complete_frac": 0.4136986301369863
+        },
+        {
+          "target": "first_snow",
+          "year": 1919,
+          "complete_frac": 0.6174863387978142
+        },
+        {
+          "target": "first_snow",
+          "year": 1921,
+          "complete_frac": 0.4301369863013699
+        },
+        {
+          "target": "first_snow",
+          "year": 1922,
+          "complete_frac": 0.4821917808219178
+        },
+        {
+          "target": "first_snow",
+          "year": 1923,
+          "complete_frac": 0.4972677595628415
+        },
+        {
+          "target": "first_snow",
+          "year": 1924,
+          "complete_frac": 0.5808219178082191
+        },
+        {
+          "target": "first_snow",
+          "year": 1925,
+          "complete_frac": 0.5972602739726027
+        },
+        {
+          "target": "first_snow",
+          "year": 1926,
+          "complete_frac": 0.5315068493150685
+        },
+        {
+          "target": "first_snow",
+          "year": 1927,
+          "complete_frac": 0.6693989071038251
+        },
+        {
+          "target": "first_snow",
+          "year": 1930,
+          "complete_frac": 0.6
+        },
+        {
+          "target": "first_snow",
+          "year": 1935,
+          "complete_frac": 0.7486338797814208
+        },
+        {
+          "target": "first_snow",
+          "year": 1936,
+          "complete_frac": 0.663013698630137
+        },
+        {
+          "target": "first_snow",
+          "year": 1937,
+          "complete_frac": 0.6657534246575343
+        },
+        {
+          "target": "first_snow",
+          "year": 1939,
+          "complete_frac": 0.3333333333333333
+        },
+        {
+          "target": "first_snow",
+          "year": 1945,
+          "complete_frac": 0.5041095890410959
+        },
+        {
+          "target": "first_snow",
+          "year": 1947,
+          "complete_frac": 0.4972677595628415
+        },
+        {
+          "target": "first_snow",
+          "year": 2013,
+          "complete_frac": 0.6575342465753424
+        },
+        {
+          "target": "first_snow",
+          "year": 2014,
+          "complete_frac": 0.663013698630137
+        },
+        {
+          "target": "first_snow",
+          "year": 2026,
+          "complete_frac": 0.16712328767123288
+        }
+      ],
+      "no_snow": []
+    },
+    {
+      "station_id": "USW00014827",
+      "incomplete": [
+        {
+          "target": "first_snow",
+          "year": 1939,
+          "complete_frac": 0.25956284153005466
+        },
+        {
+          "target": "first_snow",
+          "year": 1940,
+          "complete_frac": 0.16712328767123288
+        },
+        {
+          "target": "first_snow",
+          "year": 2026,
+          "complete_frac": 0.16712328767123288
+        }
+      ],
+      "no_snow": []
+    },
+    {
+      "station_id": "USW00093819",
+      "incomplete": [
+        {
+          "target": "first_snow",
+          "year": 1947,
+          "complete_frac": 0.4972677595628415
+        },
+        {
+          "target": "first_snow",
+          "year": 1996,
+          "complete_frac": 0.663013698630137
+        },
+        {
+          "target": "first_snow",
+          "year": 2026,
+          "complete_frac": 0.16712328767123288
+        }
+      ],
+      "no_snow": []
+    },
+    {
+      "station_id": "USW00093817",
+      "incomplete": [
+        {
+          "target": "first_snow",
+          "year": 1947,
+          "complete_frac": 0.4972677595628415
+        },
+        {
+          "target": "first_snow",
+          "year": 1995,
+          "complete_frac": 0.7049180327868853
+        },
+        {
+          "target": "first_snow",
+          "year": 1996,
+          "complete_frac": 0.673972602739726
+        },
+        {
+          "target": "first_snow",
+          "year": 1997,
+          "complete_frac": 0.7424657534246575
+        },
+        {
+          "target": "first_snow",
+          "year": 2026,
+          "complete_frac": 0.16712328767123288
+        }
+      ],
+      "no_snow": []
+    },
+    {
+      "station_id": "USC00125604",
+      "dropped": true,
+      "reason": "Michigan City stays out"
+    },
+    {
+      "station_id": "USW00004846",
+      "incomplete": [
+        {
+          "target": "first_snow",
+          "year": 2025,
+          "complete_frac": 0.0027397260273972603
+        },
+        {
+          "target": "first_snow",
+          "year": 2026,
+          "complete_frac": 0.0027397260273972603
+        }
+      ],
+      "no_snow": [],
+      "train_n": 0,
+      "dropped": true,
+      "reason": "SNOW thin"
+    }
+  ],
+  "mc_in_core_mean": false,
+  "n_kept": 325,
+  "n_dropped_incomplete": 0,
+  "n_train": 106,
+  "n_holdout": 24,
+  "n_confirm": 4,
+  "n_skipped_no_last_year": 0,
+  "holdout_cores": {
+    "by_target": {
+      "first_snow": {
+        "median": {
+          "n": 24,
+          "mae_days": 16.083333333333332,
+          "rmse_days": 19.369219567826338,
+          "bias_days": 1.5
+        },
+        "last_year": {
+          "n": 24,
+          "mae_days": 24.583333333333332,
+          "rmse_days": 31.606961258558215,
+          "bias_days": -2.0
+        },
+        "n_last_year_beats": 10,
+        "n": 24
+      }
+    },
+    "by_station": {
+      "USW00014827": {
+        "name": "FT WAYNE INTL AP",
+        "station_id": "USW00014827",
+        "first_snow": {
+          "median": {
+            "n": 6,
+            "mae_days": 11.5,
+            "rmse_days": 14.56594201096059,
+            "bias_days": 3.5
+          },
+          "last_year": {
+            "n": 6,
+            "mae_days": 18.666666666666668,
+            "rmse_days": 22.501851775650227,
+            "bias_days": -2.0
+          },
+          "n_last_year_beats": 3,
+          "n": 6
+        }
+      },
+      "USW00014848": {
+        "name": "S BEND AP",
+        "station_id": "USW00014848",
+        "first_snow": {
+          "median": {
+            "n": 6,
+            "mae_days": 8.833333333333334,
+            "rmse_days": 10.622303579418794,
+            "bias_days": 5.166666666666667
+          },
+          "last_year": {
+            "n": 6,
+            "mae_days": 13.0,
+            "rmse_days": 14.977761292440647,
+            "bias_days": -2.0
+          },
+          "n_last_year_beats": 3,
+          "n": 6
+        }
+      },
+      "USW00093817": {
+        "name": "EVANSVILLE RGNL AP",
+        "station_id": "USW00093817",
+        "first_snow": {
+          "median": {
+            "n": 6,
+            "mae_days": 27.5,
+            "rmse_days": 28.32843094843059,
+            "bias_days": -0.16666666666666666
+          },
+          "last_year": {
+            "n": 6,
+            "mae_days": 39.833333333333336,
+            "rmse_days": 47.13279113313787,
+            "bias_days": -2.8333333333333335
+          },
+          "n_last_year_beats": 2,
+          "n": 6
+        }
+      },
+      "USW00093819": {
+        "name": "INDIANAPOLIS",
+        "station_id": "USW00093819",
+        "first_snow": {
+          "median": {
+            "n": 6,
+            "mae_days": 16.5,
+            "rmse_days": 19.31752227038102,
+            "bias_days": -2.5
+          },
+          "last_year": {
+            "n": 6,
+            "mae_days": 26.833333333333332,
+            "rmse_days": 32.30840963794618,
+            "bias_days": -1.1666666666666667
+          },
+          "n_last_year_beats": 2,
+          "n": 6
+        }
+      }
+    },
+    "last_year_beats_both": false,
+    "last_year_loses_both": true,
+    "n": 24
+  },
+  "holdout_all": {
+    "by_target": {
+      "first_snow": {
+        "median": {
+          "n": 24,
+          "mae_days": 16.083333333333332,
+          "rmse_days": 19.369219567826338,
+          "bias_days": 1.5
+        },
+        "last_year": {
+          "n": 24,
+          "mae_days": 24.583333333333332,
+          "rmse_days": 31.606961258558215,
+          "bias_days": -2.0
+        },
+        "n_last_year_beats": 10,
+        "n": 24
+      }
+    },
+    "by_station": {
+      "USW00014827": {
+        "name": "FT WAYNE INTL AP",
+        "station_id": "USW00014827",
+        "first_snow": {
+          "median": {
+            "n": 6,
+            "mae_days": 11.5,
+            "rmse_days": 14.56594201096059,
+            "bias_days": 3.5
+          },
+          "last_year": {
+            "n": 6,
+            "mae_days": 18.666666666666668,
+            "rmse_days": 22.501851775650227,
+            "bias_days": -2.0
+          },
+          "n_last_year_beats": 3,
+          "n": 6
+        }
+      },
+      "USW00014848": {
+        "name": "S BEND AP",
+        "station_id": "USW00014848",
+        "first_snow": {
+          "median": {
+            "n": 6,
+            "mae_days": 8.833333333333334,
+            "rmse_days": 10.622303579418794,
+            "bias_days": 5.166666666666667
+          },
+          "last_year": {
+            "n": 6,
+            "mae_days": 13.0,
+            "rmse_days": 14.977761292440647,
+            "bias_days": -2.0
+          },
+          "n_last_year_beats": 3,
+          "n": 6
+        }
+      },
+      "USW00093817": {
+        "name": "EVANSVILLE RGNL AP",
+        "station_id": "USW00093817",
+        "first_snow": {
+          "median": {
+            "n": 6,
+            "mae_days": 27.5,
+            "rmse_days": 28.32843094843059,
+            "bias_days": -0.16666666666666666
+          },
+          "last_year": {
+            "n": 6,
+            "mae_days": 39.833333333333336,
+            "rmse_days": 47.13279113313787,
+            "bias_days": -2.8333333333333335
+          },
+          "n_last_year_beats": 2,
+          "n": 6
+        }
+      },
+      "USW00093819": {
+        "name": "INDIANAPOLIS",
+        "station_id": "USW00093819",
+        "first_snow": {
+          "median": {
+            "n": 6,
+            "mae_days": 16.5,
+            "rmse_days": 19.31752227038102,
+            "bias_days": -2.5
+          },
+          "last_year": {
+            "n": 6,
+            "mae_days": 26.833333333333332,
+            "rmse_days": 32.30840963794618,
+            "bias_days": -1.1666666666666667
+          },
+          "n_last_year_beats": 2,
+          "n": 6
+        }
+      }
+    },
+    "last_year_beats_both": false,
+    "last_year_loses_both": true,
+    "n": 24
+  },
+  "confirm": {
+    "by_target": {
+      "first_snow": {
+        "median": {
+          "n": 4,
+          "mae_days": 16.5,
+          "rmse_days": 19.987496091306685,
+          "bias_days": 16.5
+        },
+        "last_year": {
+          "n": 4,
+          "mae_days": 14.25,
+          "rmse_days": 14.637281168304447,
+          "bias_days": 14.25
+        },
+        "n_last_year_beats": 2,
+        "n": 4
+      }
+    },
+    "by_station": {
+      "USW00014827": {
+        "name": "FT WAYNE INTL AP",
+        "station_id": "USW00014827",
+        "first_snow": {
+          "median": {
+            "n": 1,
+            "mae_days": 6.0,
+            "rmse_days": 6.0,
+            "bias_days": 6.0
+          },
+          "last_year": {
+            "n": 1,
+            "mae_days": 12.0,
+            "rmse_days": 12.0,
+            "bias_days": 12.0
+          },
+          "n_last_year_beats": 0,
+          "n": 1
+        }
+      },
+      "USW00014848": {
+        "name": "S BEND AP",
+        "station_id": "USW00014848",
+        "first_snow": {
+          "median": {
+            "n": 1,
+            "mae_days": 9.0,
+            "rmse_days": 9.0,
+            "bias_days": 9.0
+          },
+          "last_year": {
+            "n": 1,
+            "mae_days": 13.0,
+            "rmse_days": 13.0,
+            "bias_days": 13.0
+          },
+          "n_last_year_beats": 0,
+          "n": 1
+        }
+      },
+      "USW00093817": {
+        "name": "EVANSVILLE RGNL AP",
+        "station_id": "USW00093817",
+        "first_snow": {
+          "median": {
+            "n": 1,
+            "mae_days": 35.0,
+            "rmse_days": 35.0,
+            "bias_days": 35.0
+          },
+          "last_year": {
+            "n": 1,
+            "mae_days": 20.0,
+            "rmse_days": 20.0,
+            "bias_days": 20.0
+          },
+          "n_last_year_beats": 1,
+          "n": 1
+        }
+      },
+      "USW00093819": {
+        "name": "INDIANAPOLIS",
+        "station_id": "USW00093819",
+        "first_snow": {
+          "median": {
+            "n": 1,
+            "mae_days": 16.0,
+            "rmse_days": 16.0,
+            "bias_days": 16.0
+          },
+          "last_year": {
+            "n": 1,
+            "mae_days": 12.0,
+            "rmse_days": 12.0,
+            "bias_days": 12.0
+          },
+          "n_last_year_beats": 1,
+          "n": 1
+        }
+      }
+    },
+    "last_year_beats_both": true,
+    "last_year_loses_both": false,
+    "n": 4
+  },
+  "holdout_rows": [
+    {
+      "station_id": "USW00014848",
+      "name": "S BEND AP",
+      "lat": 41.7072,
+      "lon": -86.3164,
+      "target": "first_snow",
+      "season_year": 2019,
+      "split": "holdout",
+      "obs": "2019-10-31",
+      "obs_season_doy": 123,
+      "median": "11-17",
+      "median_season_doy": 140,
+      "last_year": "2018-11-09",
+      "last_year_season_doy": 132,
+      "err_median_days": 17,
+      "err_last_year_days": 9,
+      "last_year_beats_median": true,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00014848",
+      "name": "S BEND AP",
+      "lat": 41.7072,
+      "lon": -86.3164,
+      "target": "first_snow",
+      "season_year": 2020,
+      "split": "holdout",
+      "obs": "2020-11-24",
+      "obs_season_doy": 147,
+      "median": "11-17",
+      "median_season_doy": 140,
+      "last_year": "2019-10-31",
+      "last_year_season_doy": 123,
+      "err_median_days": -7,
+      "err_last_year_days": -24,
+      "last_year_beats_median": false,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00014848",
+      "name": "S BEND AP",
+      "lat": 41.7072,
+      "lon": -86.3164,
+      "target": "first_snow",
+      "season_year": 2021,
+      "split": "holdout",
+      "obs": "2021-11-14",
+      "obs_season_doy": 137,
+      "median": "11-17",
+      "median_season_doy": 140,
+      "last_year": "2020-11-24",
+      "last_year_season_doy": 147,
+      "err_median_days": 3,
+      "err_last_year_days": 10,
+      "last_year_beats_median": false,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00014848",
+      "name": "S BEND AP",
+      "lat": 41.7072,
+      "lon": -86.3164,
+      "target": "first_snow",
+      "season_year": 2022,
+      "split": "holdout",
+      "obs": "2022-11-12",
+      "obs_season_doy": 135,
+      "median": "11-17",
+      "median_season_doy": 140,
+      "last_year": "2021-11-14",
+      "last_year_season_doy": 137,
+      "err_median_days": 5,
+      "err_last_year_days": 2,
+      "last_year_beats_median": true,
+      "complete_frac": 0.9972602739726028
+    },
+    {
+      "station_id": "USW00014848",
+      "name": "S BEND AP",
+      "lat": 41.7072,
+      "lon": -86.3164,
+      "target": "first_snow",
+      "season_year": 2023,
+      "split": "holdout",
+      "obs": "2023-10-31",
+      "obs_season_doy": 123,
+      "median": "11-17",
+      "median_season_doy": 140,
+      "last_year": "2022-11-12",
+      "last_year_season_doy": 135,
+      "err_median_days": 17,
+      "err_last_year_days": 12,
+      "last_year_beats_median": true,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00014848",
+      "name": "S BEND AP",
+      "lat": 41.7072,
+      "lon": -86.3164,
+      "target": "first_snow",
+      "season_year": 2024,
+      "split": "holdout",
+      "obs": "2024-11-21",
+      "obs_season_doy": 144,
+      "median": "11-17",
+      "median_season_doy": 140,
+      "last_year": "2023-10-31",
+      "last_year_season_doy": 123,
+      "err_median_days": -4,
+      "err_last_year_days": -21,
+      "last_year_beats_median": false,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00014827",
+      "name": "FT WAYNE INTL AP",
+      "lat": 40.9725,
+      "lon": -85.2064,
+      "target": "first_snow",
+      "season_year": 2019,
+      "split": "holdout",
+      "obs": "2019-10-31",
+      "obs_season_doy": 123,
+      "median": "11-15",
+      "median_season_doy": 138,
+      "last_year": "2018-11-09",
+      "last_year_season_doy": 132,
+      "err_median_days": 15,
+      "err_last_year_days": 9,
+      "last_year_beats_median": true,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00014827",
+      "name": "FT WAYNE INTL AP",
+      "lat": 40.9725,
+      "lon": -85.2064,
+      "target": "first_snow",
+      "season_year": 2020,
+      "split": "holdout",
+      "obs": "2020-11-22",
+      "obs_season_doy": 145,
+      "median": "11-15",
+      "median_season_doy": 138,
+      "last_year": "2019-10-31",
+      "last_year_season_doy": 123,
+      "err_median_days": -7,
+      "err_last_year_days": -22,
+      "last_year_beats_median": false,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00014827",
+      "name": "FT WAYNE INTL AP",
+      "lat": 40.9725,
+      "lon": -85.2064,
+      "target": "first_snow",
+      "season_year": 2021,
+      "split": "holdout",
+      "obs": "2021-11-14",
+      "obs_season_doy": 137,
+      "median": "11-15",
+      "median_season_doy": 138,
+      "last_year": "2020-11-22",
+      "last_year_season_doy": 145,
+      "err_median_days": 1,
+      "err_last_year_days": 8,
+      "last_year_beats_median": false,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00014827",
+      "name": "FT WAYNE INTL AP",
+      "lat": 40.9725,
+      "lon": -85.2064,
+      "target": "first_snow",
+      "season_year": 2022,
+      "split": "holdout",
+      "obs": "2022-10-17",
+      "obs_season_doy": 109,
+      "median": "11-15",
+      "median_season_doy": 138,
+      "last_year": "2021-11-14",
+      "last_year_season_doy": 137,
+      "err_median_days": 29,
+      "err_last_year_days": 28,
+      "last_year_beats_median": true,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00014827",
+      "name": "FT WAYNE INTL AP",
+      "lat": 40.9725,
+      "lon": -85.2064,
+      "target": "first_snow",
+      "season_year": 2023,
+      "split": "holdout",
+      "obs": "2023-11-26",
+      "obs_season_doy": 149,
+      "median": "11-15",
+      "median_season_doy": 138,
+      "last_year": "2022-10-17",
+      "last_year_season_doy": 109,
+      "err_median_days": -11,
+      "err_last_year_days": -40,
+      "last_year_beats_median": false,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00014827",
+      "name": "FT WAYNE INTL AP",
+      "lat": 40.9725,
+      "lon": -85.2064,
+      "target": "first_snow",
+      "season_year": 2024,
+      "split": "holdout",
+      "obs": "2024-11-21",
+      "obs_season_doy": 144,
+      "median": "11-15",
+      "median_season_doy": 138,
+      "last_year": "2023-11-26",
+      "last_year_season_doy": 149,
+      "err_median_days": -6,
+      "err_last_year_days": 5,
+      "last_year_beats_median": true,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00093819",
+      "name": "INDIANAPOLIS",
+      "lat": 39.7075,
+      "lon": -86.2803,
+      "target": "first_snow",
+      "season_year": 2019,
+      "split": "holdout",
+      "obs": "2019-11-11",
+      "obs_season_doy": 134,
+      "median": "11-25",
+      "median_season_doy": 148,
+      "last_year": "2018-11-14",
+      "last_year_season_doy": 137,
+      "err_median_days": 14,
+      "err_last_year_days": 3,
+      "last_year_beats_median": true,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00093819",
+      "name": "INDIANAPOLIS",
+      "lat": 39.7075,
+      "lon": -86.2803,
+      "target": "first_snow",
+      "season_year": 2020,
+      "split": "holdout",
+      "obs": "2020-12-16",
+      "obs_season_doy": 169,
+      "median": "11-25",
+      "median_season_doy": 148,
+      "last_year": "2019-11-11",
+      "last_year_season_doy": 134,
+      "err_median_days": -21,
+      "err_last_year_days": -35,
+      "last_year_beats_median": false,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00093819",
+      "name": "INDIANAPOLIS",
+      "lat": 39.7075,
+      "lon": -86.2803,
+      "target": "first_snow",
+      "season_year": 2021,
+      "split": "holdout",
+      "obs": "2021-11-14",
+      "obs_season_doy": 137,
+      "median": "11-25",
+      "median_season_doy": 148,
+      "last_year": "2020-12-16",
+      "last_year_season_doy": 169,
+      "err_median_days": 11,
+      "err_last_year_days": 32,
+      "last_year_beats_median": false,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00093819",
+      "name": "INDIANAPOLIS",
+      "lat": 39.7075,
+      "lon": -86.2803,
+      "target": "first_snow",
+      "season_year": 2022,
+      "split": "holdout",
+      "obs": "2022-11-12",
+      "obs_season_doy": 135,
+      "median": "11-25",
+      "median_season_doy": 148,
+      "last_year": "2021-11-14",
+      "last_year_season_doy": 137,
+      "err_median_days": 13,
+      "err_last_year_days": 2,
+      "last_year_beats_median": true,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00093819",
+      "name": "INDIANAPOLIS",
+      "lat": 39.7075,
+      "lon": -86.2803,
+      "target": "first_snow",
+      "season_year": 2023,
+      "split": "holdout",
+      "obs": "2023-12-31",
+      "obs_season_doy": 184,
+      "median": "11-25",
+      "median_season_doy": 148,
+      "last_year": "2022-11-12",
+      "last_year_season_doy": 135,
+      "err_median_days": -36,
+      "err_last_year_days": -49,
+      "last_year_beats_median": false,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00093819",
+      "name": "INDIANAPOLIS",
+      "lat": 39.7075,
+      "lon": -86.2803,
+      "target": "first_snow",
+      "season_year": 2024,
+      "split": "holdout",
+      "obs": "2024-11-21",
+      "obs_season_doy": 144,
+      "median": "11-25",
+      "median_season_doy": 148,
+      "last_year": "2023-12-31",
+      "last_year_season_doy": 184,
+      "err_median_days": 4,
+      "err_last_year_days": 40,
+      "last_year_beats_median": false,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00093817",
+      "name": "EVANSVILLE RGNL AP",
+      "lat": 38.0503,
+      "lon": -87.5147,
+      "target": "first_snow",
+      "season_year": 2019,
+      "split": "holdout",
+      "obs": "2019-11-11",
+      "obs_season_doy": 134,
+      "median": "12-15",
+      "median_season_doy": 168,
+      "last_year": "2018-11-13",
+      "last_year_season_doy": 136,
+      "err_median_days": 34,
+      "err_last_year_days": 2,
+      "last_year_beats_median": true,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00093817",
+      "name": "EVANSVILLE RGNL AP",
+      "lat": 38.0503,
+      "lon": -87.5147,
+      "target": "first_snow",
+      "season_year": 2020,
+      "split": "holdout",
+      "obs": "2021-01-15",
+      "obs_season_doy": 199,
+      "median": "12-15",
+      "median_season_doy": 168,
+      "last_year": "2019-11-11",
+      "last_year_season_doy": 134,
+      "err_median_days": -31,
+      "err_last_year_days": -65,
+      "last_year_beats_median": false,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00093817",
+      "name": "EVANSVILLE RGNL AP",
+      "lat": 38.0503,
+      "lon": -87.5147,
+      "target": "first_snow",
+      "season_year": 2021,
+      "split": "holdout",
+      "obs": "2022-01-06",
+      "obs_season_doy": 190,
+      "median": "12-15",
+      "median_season_doy": 168,
+      "last_year": "2021-01-15",
+      "last_year_season_doy": 199,
+      "err_median_days": -22,
+      "err_last_year_days": 9,
+      "last_year_beats_median": true,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00093817",
+      "name": "EVANSVILLE RGNL AP",
+      "lat": 38.0503,
+      "lon": -87.5147,
+      "target": "first_snow",
+      "season_year": 2022,
+      "split": "holdout",
+      "obs": "2022-11-12",
+      "obs_season_doy": 135,
+      "median": "12-15",
+      "median_season_doy": 168,
+      "last_year": "2022-01-06",
+      "last_year_season_doy": 190,
+      "err_median_days": 33,
+      "err_last_year_days": 55,
+      "last_year_beats_median": false,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00093817",
+      "name": "EVANSVILLE RGNL AP",
+      "lat": 38.0503,
+      "lon": -87.5147,
+      "target": "first_snow",
+      "season_year": 2023,
+      "split": "holdout",
+      "obs": "2024-01-14",
+      "obs_season_doy": 198,
+      "median": "12-15",
+      "median_season_doy": 168,
+      "last_year": "2022-11-12",
+      "last_year_season_doy": 135,
+      "err_median_days": -30,
+      "err_last_year_days": -63,
+      "last_year_beats_median": false,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00093817",
+      "name": "EVANSVILLE RGNL AP",
+      "lat": 38.0503,
+      "lon": -87.5147,
+      "target": "first_snow",
+      "season_year": 2024,
+      "split": "holdout",
+      "obs": "2024-11-30",
+      "obs_season_doy": 153,
+      "median": "12-15",
+      "median_season_doy": 168,
+      "last_year": "2024-01-14",
+      "last_year_season_doy": 198,
+      "err_median_days": 15,
+      "err_last_year_days": 45,
+      "last_year_beats_median": false,
+      "complete_frac": 1.0
+    }
+  ],
+  "confirm_rows": [
+    {
+      "station_id": "USW00014848",
+      "name": "S BEND AP",
+      "lat": 41.7072,
+      "lon": -86.3164,
+      "target": "first_snow",
+      "season_year": 2025,
+      "split": "confirm",
+      "obs": "2025-11-08",
+      "obs_season_doy": 131,
+      "median": "11-17",
+      "median_season_doy": 140,
+      "last_year": "2024-11-21",
+      "last_year_season_doy": 144,
+      "err_median_days": 9,
+      "err_last_year_days": 13,
+      "last_year_beats_median": false,
+      "complete_frac": 0.989041095890411
+    },
+    {
+      "station_id": "USW00014827",
+      "name": "FT WAYNE INTL AP",
+      "lat": 40.9725,
+      "lon": -85.2064,
+      "target": "first_snow",
+      "season_year": 2025,
+      "split": "confirm",
+      "obs": "2025-11-09",
+      "obs_season_doy": 132,
+      "median": "11-15",
+      "median_season_doy": 138,
+      "last_year": "2024-11-21",
+      "last_year_season_doy": 144,
+      "err_median_days": 6,
+      "err_last_year_days": 12,
+      "last_year_beats_median": false,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00093819",
+      "name": "INDIANAPOLIS",
+      "lat": 39.7075,
+      "lon": -86.2803,
+      "target": "first_snow",
+      "season_year": 2025,
+      "split": "confirm",
+      "obs": "2025-11-09",
+      "obs_season_doy": 132,
+      "median": "11-25",
+      "median_season_doy": 148,
+      "last_year": "2024-11-21",
+      "last_year_season_doy": 144,
+      "err_median_days": 16,
+      "err_last_year_days": 12,
+      "last_year_beats_median": true,
+      "complete_frac": 1.0
+    },
+    {
+      "station_id": "USW00093817",
+      "name": "EVANSVILLE RGNL AP",
+      "lat": 38.0503,
+      "lon": -87.5147,
+      "target": "first_snow",
+      "season_year": 2025,
+      "split": "confirm",
+      "obs": "2025-11-10",
+      "obs_season_doy": 133,
+      "median": "12-15",
+      "median_season_doy": 168,
+      "last_year": "2024-11-30",
+      "last_year_season_doy": 153,
+      "err_median_days": 35,
+      "err_last_year_days": 20,
+      "last_year_beats_median": true,
+      "complete_frac": 1.0
+    }
+  ],
+  "medians": {
+    "USW00014848|first_snow": "11-17",
+    "USW00014827|first_snow": "11-15",
+    "USW00093819|first_snow": "11-25",
+    "USW00093817|first_snow": "12-15"
+  },
+  "confirm_in_train": false,
+  "confirm_in_median": false,
+  "random_split": false,
+  "holdout_years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "train_years": "1991-2018",
+  "confirm_year": 2025,
+  "targets": [
+    "first_snow"
+  ],
+  "fetch_meta": {
+    "n_stations": 4,
+    "n_rows": 325,
+    "product": "GHCND SNOW",
+    "units": "days",
+    "snow_inch_min": 0.1,
+    "used_optional": null,
+    "cache_dir": "data/raw",
+    "mc_in_core_mean": false
+  }
+}

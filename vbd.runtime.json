@@ -1,0 +1,22 @@
+{
+  "runtime_checks": [
+    {
+      "id": "unit-tests",
+      "argv": [".venv/bin/python", "-m", "pytest", "tests/", "-q"],
+      "timeout_s": 180,
+      "paths": ["src/**", "tests/**", "scripts/**", "snowdateforge/**", "requirements.txt", "vbd.runtime.json"]
+    },
+    {
+      "id": "fixture-path",
+      "argv": [".venv/bin/python", "scripts/run_fixture.py", "logs/stage0_fixture"],
+      "timeout_s": 120,
+      "paths": ["src/**", "scripts/**"]
+    },
+    {
+      "id": "snowdateforge-sanity",
+      "argv": [".venv/bin/python", "snowdateforge/scripts/sanity_snowdateforge.py"],
+      "timeout_s": 60,
+      "paths": ["snowdateforge/**", "tests/test_snowdateforge_laws.py"]
+    }
+  ]
+}
