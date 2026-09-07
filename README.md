@@ -8,7 +8,7 @@ Holdout n=24 station-winters on the four cores (winters 2019-20 through 2024-25)
 
 Parents stay frozen: freeze `28941fb`, ENSO-freeze `d861556`, DJF snow `9aa7935`, NWI lake snow `82ce0ce`. The four-core lead is South Bend, Fort Wayne, Indianapolis, and Evansville.
 
-[First/last 32 °F](https://github.com/martialsystems/indiana_freeze_date) [October plus ENSO freeze dates](https://github.com/martialsystems/indiana_freeze_enso) [DJF snow tercile](https://github.com/martialsystems/indiana_djf_snow_tercile) [NWI lake-belt snow](https://github.com/martialsystems/nwi_lake_effect_snow) [Temp writeup](https://gist.github.com/martialsystems/e5de316dbb5f672573906572730e3735)
+[First/last 32 °F](https://github.com/martialsystems/indiana_freeze_date) [October plus ENSO freeze dates](https://github.com/martialsystems/indiana_freeze_enso) [DJF snow tercile](https://github.com/martialsystems/indiana_djf_snow_tercile) [DJF above-normal frequency](https://github.com/martialsystems/indiana_djf_snow_freq) [NWI lake-belt snow](https://github.com/martialsystems/nwi_lake_effect_snow) [Temp writeup](https://gist.github.com/martialsystems/e5de316dbb5f672573906572730e3735)
 
 Cores: South Bend `USW00014848`, Fort Wayne `USW00014827`, Indianapolis `USW00093819`, Evansville `USW00093817`. Label is first GHCND SNOW ≥ 0.1 in on 1 July Y through 30 June Y+1. Valparaiso `USW00004846` SNOW is thin (train n=0) and is dropped. Michigan City `USC00125604` stays out.
 
