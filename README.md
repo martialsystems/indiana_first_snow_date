@@ -2,7 +2,7 @@
 
 Does last year's first 0.1 in GHCND SNOW date beat the 1991-2020 median date at held-out Indiana GHCND cores?
 
-No. Last year is worse than the 1991-2020 median on holdout MAE and RMSE (24.6 vs 16.1 MAE days; 31.6 vs 19.4 RMSE). MAE and RMSE agree. Counts of winters where last year had the smaller absolute error (10/24) are not the method. South Bend 13.00 vs 8.83 is a loss on six winters, not a northern win. Evansville 39.83 vs 27.50. Those rows stay in the station table. Pages stay off.
+No. Locked `0ace8a1`. Last year is worse than the 1991-2020 median on holdout MAE and RMSE (24.6 vs 16.1 MAE days; 31.6 vs 19.4 RMSE). MAE and RMSE agree. Counts of winters where last year had the smaller absolute error (10/24) are not the method. South Bend 13.00 vs 8.83 is a loss on six winters, not a northern win. Evansville 39.83 vs 27.50. Those rows stay in the station table. Pages stay off.
 
 Holdout n=24 station-winters on the four cores (winters 2019-20 through 2024-25). Train: winters 1991-92 through 2018-19. Confirmation 2025-26 is out of train and out of the median.
 

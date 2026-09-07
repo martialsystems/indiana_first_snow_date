@@ -49,4 +49,4 @@ Lead with MAE in days vs the median. RMSE second. Per-station table required. Co
 
 ## Parents
 
-Cite freeze `28941fb`, ENSO-freeze `d861556`, DJF snow `9aa7935`, NWI lake snow `82ce0ce`. Do not restamp them. Live skill is in `logs/in_live/stage_c_report.json`. Last year does not beat the median on holdout MAE or RMSE. Pages stay off.
+Cite freeze `28941fb`, ENSO-freeze `d861556`, DJF snow `9aa7935`, NWI lake snow `82ce0ce`. Do not restamp them. Live skill is `0ace8a1` from `logs/in_live/stage_c_report.json`. Last year does not beat the median on holdout MAE or RMSE. Pages stay off.
