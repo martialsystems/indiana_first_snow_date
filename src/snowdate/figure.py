@@ -72,6 +72,10 @@ def write_scatter(dest: Path, *, fit: dict[str, Any], title: str, subtitle: str)
     return dest
 
 
+def _fmt_mae(v: float) -> str:
+    return f"{float(v):.1f}"
+
+
 def draw_bars(fit: dict[str, Any], *, title: str, subtitle: str):
     import matplotlib
 
@@ -85,14 +89,18 @@ def draw_bars(fit: dict[str, Any], *, title: str, subtitle: str):
     fig, ax = plt.subplots(figsize=(7.2, 4.8))
     med = [by_st[sid][FIRST_SNOW]["median"]["mae_days"] for sid in order]
     ly = [by_st[sid][FIRST_SNOW]["last_year"]["mae_days"] for sid in order]
-    ax.bar(x - width / 2, med, width, color="#64748b", label="1991-2020 median")
-    ax.bar(x + width / 2, ly, width, color="#b45309", label="last year")
+    c0 = ax.bar(x - width / 2, med, width, color="#64748b", label="1991-2020 median")
+    c1 = ax.bar(x + width / 2, ly, width, color="#b45309", label="last year")
+    ax.bar_label(c0, labels=[_fmt_mae(v) for v in med], fontsize=7, padding=1)
+    ax.bar_label(c1, labels=[_fmt_mae(v) for v in ly], fontsize=7, padding=1)
     ax.set_xticks(x)
     ax.set_xticklabels(labels, fontsize=8, rotation=28, ha="right")
     ax.set_ylabel("MAE (days)")
     ax.set_title("First 0.1 in SNOW", fontsize=10)
-    ax.legend(fontsize=7, loc="upper right")
+    ax.legend(fontsize=7, loc="upper left")
     ax.tick_params(axis="x", pad=2)
+    hi = max(max(med), max(ly)) if order else 1.0
+    ax.set_ylim(0, hi * 1.22)
     fig.suptitle(title, fontsize=11)
     fig.subplots_adjust(bottom=0.28, top=0.86)
     fig.text(0.5, 0.03, subtitle, ha="center", fontsize=8)
